@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Conway's Game of Life</title>
+	<style>
+		html, body {
+			width:  100%;
+			height: 100%;
+			margin: 0px;
+			overflow: hidden;
+		}
+	</style>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+	<script src='life-html5-canvas.js'></script>
+	<script>
+		$(document).ready(function() {
+			var context = document.getElementById('life-html5-canvas').getContext('2d');
+			context.canvas.width = window.innerWidth;
+			context.canvas.height = window.innerHeight;
+			Life(5, 100);
+		});
+	</script>
+</head>
+<body>
+	<canvas id='life-html5-canvas'></canvas>
+</body>
+</html>
