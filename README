@@ -5,6 +5,6 @@ bgoliber@gmail.com
 As you might expect, an implementation of Conway's Game of Life using the
 <canvas> tag. The 'index.html' file demonstrates basic usage.
 
-1. Include the 'life-html5-canvas.js' in the header.
+1. Include 'life-html5-canvas.js' in the header.
 2. Create a canvas with the id "life-html5-canvas".
 3. Run Life(cell-size-in-pixels, delay-in-milliseconds).
