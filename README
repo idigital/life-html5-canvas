@@ -1,6 +1,4 @@
 life-html5-canvas.js
-Bradley Goliber
-bgoliber@gmail.com
 
 As you might expect, an implementation of Conway's Game of Life using the
 <canvas> tag. The 'index.html' file demonstrates basic usage.
