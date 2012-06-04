@@ -34,7 +34,7 @@ function Life(size, delay) {
 		if (col3 >= cols)
 			col3 = 0;	
 		var neighbors = world[row1][col1] + world[row1][col2] + world[row1][col3] +
-						world[row2][col1] +						world[row2][col3] +
+						world[row2][col1] +                     world[row2][col3] +
 						world[row3][col1] + world[row3][col2] + world[row3][col3];
 		return neighbors;
 	}
